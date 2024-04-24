@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Video Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .video {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>视频双工传输演示</h1>
+
+        <div class="video">
+            <h2>Video 1</h2>
+            <video width="100%" controls>
+                <source src="transport_double" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="video">
+            <h2>Video 2</h2>
+            <video width="100%" controls>
+                <source src="compare.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+
+        <!-- You can add more video sections like above for additional videos -->
+
+    </div>
+</body>
+</html>
